@@ -1,0 +1,3 @@
+usr/local/bin/reviewbase_coind usr/bin
+usr/local/bin/reviewbase_coin-cli usr/bin
+debian/examples/reviewbase_coin.conf etc/reviewbase_coin

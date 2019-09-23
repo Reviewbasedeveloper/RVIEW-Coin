@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=ReviewBase_Coin
+Comment=ReviewBase_Coin P2P Cryptocurrency
+Comment[fr]=ReviewBase_Coin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ReviewBase_Coin, eşten eşe kriptografik sanal para birimi
+Exec=reviewbase_coin-qt %u
+Terminal=false
+Type=Application
+Icon=reviewbase_coin128
+MimeType=x-scheme-handler/reviewbase_coin;
+Categories=Office;Finance;
+StartupWMClass=Reviewbase_Coin-qt

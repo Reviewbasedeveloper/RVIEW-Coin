@@ -1,0 +1,8 @@
+/usr/bin/reviewbase_coin-cli		--	gen_context(system_u:object_r:reviewbase_coin_exec_t,s0)
+/usr/sbin/reviewbase_coind		--	gen_context(system_u:object_r:reviewbase_coin_exec_t,s0)
+/usr/lib(64)?/reviewbase_coin/reviewbase_coind		--	gen_context(system_u:object_r:reviewbase_coin_exec_t,s0)
+
+/etc/reviewbase_coin(/.*)?		gen_context(system_u:object_r:reviewbase_coin_conf_t,s0)
+/var/lib/reviewbase_coin(/.*)?		gen_context(system_u:object_r:reviewbase_coin_var_lib_t,s0)
+
+(/var)?/run/reviewbase_coind(/.*)?   gen_context(system_u:object_r:reviewbase_coin_var_run_t,s0)

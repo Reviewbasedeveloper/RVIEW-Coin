@@ -1,0 +1,6 @@
+usr/local/bin/reviewbase_coin-qt usr/bin
+share/pixmaps/reviewbase_coin32.xpm usr/share/pixmaps
+share/pixmaps/reviewbase_coin16.xpm usr/share/pixmaps
+share/pixmaps/reviewbase_coin128.png usr/share/pixmaps
+debian/reviewbase_coin-qt.desktop usr/share/applications
+debian/reviewbase_coin-qt.protocol usr/share/kde4/services/
